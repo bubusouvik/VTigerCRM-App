@@ -24,6 +24,7 @@ public class SampleParallelExecutionWithClasses extends VtigerBaseclassWithClass
 //		cncp.createContact(pfile.getFileFromPropertyFile("lastname"));
 		
 		System.out.println("Test method !!");
+		System.out.println("Another test method");
 
 	}
 }
