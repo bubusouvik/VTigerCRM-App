@@ -31,7 +31,7 @@ public class CreateContactWithBaseClassTest extends VTigerBaseClass {
 		CreateContactPage ccp = new CreateContactPage(driver);
 		ccp.getCreateContact().click();
 
-		// test script
+		// test scripts
 		String lastname = pfile.getFileFromPropertyFile("lastname");
 		CreatingNewContactPage cnp = new CreatingNewContactPage(driver);
 		cnp.createContact(lastname);
